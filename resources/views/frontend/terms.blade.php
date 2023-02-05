@@ -3,9 +3,12 @@
 
 @section('content')  
  
-<h1 class="text-center">WELL COME TO TERM <span class="text-danger" >CONDITIONS PAGE</span></h1>
-    
-    <p class="font-weight-bold" >I NEED BSCK CHROME .BAN CHATGPT</p>
-    <p>hsdggfhsxgdyh</p>
+<div>
+    <h1>This Things are in construction</h1>
+    <p>sorry for it,
+        <br>
+        <hr>
+        please wait please try later</p>
+</div>
     
 @endsection
