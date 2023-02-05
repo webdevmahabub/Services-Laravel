@@ -84,7 +84,7 @@
                                     <a class="nav-link" href="/contact">Contact Us</a>
                                  </li>
                               </ul>
-                              <div class="sign_btn"><a href="#">Get A Quote</a></div>
+                              <div class="sign_btn"><a href="https://billing.greenviewsoft.com/">Clint Login</a></div>
                            </div>
                         </nav>
                      </div>

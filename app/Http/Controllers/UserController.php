@@ -8,8 +8,7 @@ use Illuminate\Support\Facades\Hash;
 
 class UserController extends Controller
 {
-    function index(Request $request)
-    {
+    function index(Request $request){
         $user= User::where('email', $request->email)->first();
         // print_r($data);
             if (!$user || !Hash::check($request->password, $user->password)) {
@@ -26,6 +25,21 @@ class UserController extends Controller
             ];
         
              return response($response, 201);
-    }
+} // End iNDEX
+
+public function AdminLogin(){
+
+    return view('backend.admin_login');
+}// End Method
+
+public function AdminDashboards(){
+
+    return view('backend.admin_dashboards');
+}// End Method
+
+
+
+
+
 }
 

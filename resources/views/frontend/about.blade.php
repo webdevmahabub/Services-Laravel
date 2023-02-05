@@ -5,18 +5,14 @@
 
 @section('content')
 
-<p>
-   <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-     Link with href
-   </a>
-   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-     Button with data-target
-   </button>
- </p>
- <div class="collapse" id="collapseExample">
-   <div class="card card-body">
-     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-   </div>
+<div class="jumbotron">
+   <h1 class="display-4">Hello, world!</h1>
+   <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+   <hr class="my-4">
+   <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+   <p class="lead">
+     <a class="btn btn-primary btn-lg mt-3" href="#" role="button">Learn more</a>
+   </p>
  </div>
 
 @endsection

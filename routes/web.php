@@ -5,6 +5,7 @@ use Symfony\Component\Routing\DependencyInjection\RoutingResolverPass;
 use App\Http\Controllers\Frontend\AboutController;
 use App\Http\Controllers\Frontend\ContactController;
 use App\Http\Controllers\Frontend\ServicesController;
+use App\Http\Controllers\UserController;
 use App\Http\Controllers\Frontend\HomeController;
 
 /*
@@ -18,8 +19,14 @@ use App\Http\Controllers\Frontend\HomeController;
 |
 */
 
-// Home Route
+// Frontend  Home Route
  Route::get('/', [HomeController::class, 'Home'])->name('home');
  Route::get('/contact', [HomeController::class, 'Contact'])->name('contact');
  Route::get('/about', [HomeController::class, 'About'])->name('home');
  Route::get('/terms', [HomeController::class, 'Terms'])->name('terms');
+
+
+// Admin Routes 
+
+Route::get('/admin', [UserController::class, 'AdminLogin']);
+Route::get('/admin/dashboards', [UserController::class, 'AdminDashboards']);
