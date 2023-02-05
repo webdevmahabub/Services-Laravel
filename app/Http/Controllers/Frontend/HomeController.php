@@ -31,5 +31,5 @@ public function Terms(){
 
     return view('frontend.terms');
 
-}// End Method
+}// End Method  terms
 }
