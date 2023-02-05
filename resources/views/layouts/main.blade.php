@@ -72,7 +72,7 @@
                                     <li class="nav-item ">
                                        <a class="nav-link" href="/"> Home  </a>
                                     </li> 
-                                    <a class="nav-link" href="about.html"> About Us  </a>
+                                    <a class="nav-link" href="/about"> About Us  </a>
                                  </li> 
                                  <li class="nav-item">
                                     <a class="nav-link" href="clients.html">Our Clients</a>
@@ -81,7 +81,7 @@
                                     <a class="nav-link" href="ourwork.html">Our Work</a>
                                  </li>
                                  <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact Us</a>
+                                    <a class="nav-link" href="/contact">Contact Us</a>
                                  </li>
                               </ul>
                               <div class="sign_btn"><a href="#">Get A Quote</a></div>

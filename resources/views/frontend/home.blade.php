@@ -77,6 +77,5 @@
 
 @include('frontend.clients')
 
-@include('website.contact')
 
 @endsection

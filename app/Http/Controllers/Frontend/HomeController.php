@@ -10,7 +10,7 @@ class HomeController extends Controller
 
 public function Home(){
 
-return view('website.home');
+return view('frontend.home');
 
 }//end index
 
@@ -24,7 +24,7 @@ public function About(){
 
 public function Contact(){
 
-    return view('website.contact');
+    return view('frontend.contact');
 
 }// End Method
 public function Terms(){
